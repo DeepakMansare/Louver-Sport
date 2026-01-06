@@ -1,6 +1,4 @@
 const OtherFeatures = () => {
-  return (
-    <div>OtherFeatures</div>
-  )
-}
-export default OtherFeatures
+	return <div>OtherFeatures</div>;
+};
+export default OtherFeatures;
