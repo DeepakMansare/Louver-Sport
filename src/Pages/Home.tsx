@@ -1,20 +1,24 @@
-import About from "../Components/About";
-import Contact from "../Components/Contact";
-import Facilities from "../Components/Facilities";
-import Footer from "../Components/Footer";
-import Hero from "../Components/Hero";
-import Newsletter from "../Components/Newsletter";
-import OtherFeatures from "../Components/OtherFeatures";
-import Testimonials from "../Components/Testimonials";
+import {
+  Hero,
+  About,
+  Facilities,
+  OtherFeatures,
+  ContactForm,
+  Testimonials,
+  Newsletter,
+  Footer,
+  Navbar,
+} from "@components";
 
 const Home = () => {
   return (
     <div>
+      <Navbar />
       <Hero />
       <About />
       <Facilities />
       <OtherFeatures />
-      <Contact />
+      <ContactForm />
       <Testimonials />
       <Newsletter />
       <Footer />

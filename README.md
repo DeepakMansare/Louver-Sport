@@ -4,6 +4,8 @@ React + Vite project.
 
 ## Setup
 
-npm install  
-npm run dev
+```bash
+npm install
 npm install react-router-dom
+npm run dev
+```
