@@ -7,11 +7,13 @@ import {
   Testimonials,
   Newsletter,
   Footer,
-} from "@Components";
+  Navbar,
+} from "@components";
 
 const Home = () => {
   return (
     <div>
+      <Navbar />
       <Hero />
       <About />
       <Facilities />

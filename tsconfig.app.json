@@ -1,9 +1,8 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "src",
     "paths": {
-      "@Components": ["src/Components/index.ts"],
-      "@Components/*": ["src/Components/*"]
+      "@components": ["src/components/index.ts"]
     },
 
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
